@@ -1,0 +1,24 @@
+{
+  "visual": {
+    "name": "slicerWithSvgHeaderIcon",
+    "displayName": "Slicer with SVG Header Icon",
+    "guid": "slicerWithSvgHeaderIcon63E66CB5D7AE4763A51B1A61A3DAA532",
+    "visualClassName": "Visual",
+    "version": "1.0.0.0",
+    "description": "Slicer with configurable SVG header icon, colours, and dropdown formatting.",
+    "gitHubUrl": "https://github.com/ShuiGuiPoppy/Slicer-with-SVG-Header-Icon"
+  },
+  "apiVersion": "5.11.0",
+  "author": {
+    "name": "ShuiGuiPoppy",
+    "email": "shuiguipoppy@gmail.com"
+  },
+  "assets": {
+    "icon": "assets/icon.png"
+  },
+  "externalJS": null,
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json",
+  "dependencies": null,
+  "stringResources": []
+}

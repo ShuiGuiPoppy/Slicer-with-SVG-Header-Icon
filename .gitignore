@@ -1,0 +1,12 @@
+node_modules/
+.tmp/
+.vscode/
+
+dist/
+!dist/*.pbiviz
+!dist/package.json
+
+webpack.statistics.dev.html
+webpack.statistics.prod.html
+
+*.log

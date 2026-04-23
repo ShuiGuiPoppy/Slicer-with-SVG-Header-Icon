@@ -1,0 +1,345 @@
+{
+  "dataRoles": [
+    {
+      "displayName": "Category",
+      "name": "category",
+      "kind": "Grouping"
+    }
+  ],
+  "dataViewMappings": [
+    {
+      "categorical": {
+        "categories": {
+          "for": {
+            "in": "category"
+          },
+          "dataReductionAlgorithm": {
+            "top": {}
+          }
+        }
+      }
+    }
+  ],
+  "supportsLandingPage": true,
+  "supportsEmptyDataView": true,
+  "objects": {
+    "header": {
+      "displayName": "Header",
+      "properties": {
+        "titleText": {
+          "displayName": "Title text",
+          "type": {
+            "text": true
+          }
+        },
+        "showTitle": {
+          "displayName": "Show title",
+          "type": {
+            "bool": true
+          }
+        },
+        "selectedValueText": {
+          "displayName": "Value placeholder",
+          "type": {
+            "text": true
+          }
+        },
+        "backgroundColor": {
+          "displayName": "Background colour",
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        },
+        "textColor": {
+          "displayName": "Text colour",
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        },
+        "titleFontFamily": {
+          "type": {
+            "formatting": {
+              "fontFamily": true
+            }
+          }
+        },
+        "titleFontSize": {
+          "type": {
+            "formatting": {
+              "fontSize": true
+            }
+          }
+        },
+        "titleBold": {
+          "type": {
+            "bool": true
+          }
+        },
+        "titleItalic": {
+          "type": {
+            "bool": true
+          }
+        },
+        "titleUnderline": {
+          "type": {
+            "bool": true
+          }
+        },
+        "valueFontFamily": {
+          "type": {
+            "formatting": {
+              "fontFamily": true
+            }
+          }
+        },
+        "valueFontSize": {
+          "type": {
+            "formatting": {
+              "fontSize": true
+            }
+          }
+        },
+        "valueBold": {
+          "type": {
+            "bool": true
+          }
+        },
+        "valueItalic": {
+          "type": {
+            "bool": true
+          }
+        },
+        "valueUnderline": {
+          "type": {
+            "bool": true
+          }
+        }
+      }
+    },
+    "icon": {
+      "displayName": "Icon",
+      "properties": {
+        "show": {
+          "displayName": "Show icon",
+          "type": {
+            "bool": true
+          }
+        },
+        "svgMarkup": {
+          "displayName": "SVG markup",
+          "type": {
+            "text": true
+          }
+        },
+        "lineColor": {
+          "displayName": "Line colour",
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        },
+        "fillColor": {
+          "displayName": "Fill colour",
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        },
+        "size": {
+          "displayName": "Icon size",
+          "type": {
+            "formatting": {
+              "fontSize": true
+            }
+          }
+        }
+      }
+    },
+    "borderLayout": {
+      "displayName": "Border & Layout",
+      "properties": {
+        "cardBackgroundColor": {
+          "displayName": "Card background colour",
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        },
+        "borderColor": {
+          "displayName": "Border colour",
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        },
+        "borderRadius": {
+          "displayName": "Border radius",
+          "type": {
+            "numeric": true
+          }
+        },
+        "padding": {
+          "displayName": "Padding",
+          "type": {
+            "numeric": true
+          }
+        }
+      }
+    },
+    "items": {
+      "displayName": "Items",
+      "properties": {
+        "itemFontFamily": {
+          "displayName": "Font family",
+          "type": {
+            "text": true
+          }
+        },
+        "itemFontSize": {
+          "displayName": "Font size",
+          "type": {
+            "formatting": {
+              "fontSize": true
+            }
+          }
+        },
+        "itemAlignment": {
+          "displayName": "Values alignment",
+          "type": {
+            "enumeration": [
+              {
+                "value": "left",
+                "displayName": "Left"
+              },
+              {
+                "value": "center",
+                "displayName": "Center"
+              },
+              {
+                "value": "right",
+                "displayName": "Right"
+              }
+            ]
+          }
+        },
+        "itemTextColor": {
+          "displayName": "Text colour",
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        },
+        "backgroundColor": {
+          "displayName": "Background colour",
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        },
+        "rowBackgroundColor": {
+          "displayName": "Row background colour",
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        },
+        "hoverColor": {
+          "displayName": "Hover background colour",
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        },
+        "selectedBackgroundColor": {
+          "displayName": "Selected background colour",
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        },
+        "dropdownMaxHeight": {
+          "displayName": "Dropdown max height",
+          "type": {
+            "numeric": true
+          }
+        },
+        "showSearch": {
+          "displayName": "Show search",
+          "type": {
+            "bool": true
+          }
+        },
+        "alwaysShowOptions": {
+          "displayName": "Always show options",
+          "type": {
+            "bool": true
+          }
+        },
+        "fitToVisualHeight": {
+          "displayName": "Fit to visual height",
+          "type": {
+            "bool": true
+          }
+        }
+      }
+    },
+    "selection": {
+      "displayName": "Selection",
+      "properties": {
+        "allowMultiSelect": {
+          "displayName": "Allow multi-select",
+          "type": {
+            "bool": true
+          }
+        }
+      }
+    },
+    "sort": {
+      "displayName": "Sort",
+      "properties": {
+        "sortAscending": {
+          "displayName": "Sort ascending",
+          "type": {
+            "bool": true
+          }
+        }
+      }
+    }
+  },
+  "privileges": []
+}
