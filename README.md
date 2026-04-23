@@ -56,6 +56,10 @@ For Power BI custom visual environment setup, see [Microsoft Learn: Set up your 
 3. In the Visualizations pane, choose `Import a visual from a file`.
 4. Select the `.pbiviz` file from `dist\`.
 
+## Download release build
+
+If you just want the ready-to-use visual, download the `.pbiviz` file from the repo's GitHub Releases page and import it into Power BI Desktop without building the project locally.
+
 ## Format pane areas
 
 - Header: title, title visibility, placeholder, colours, title font, value font
