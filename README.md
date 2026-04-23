@@ -2,6 +2,8 @@
 
 This repo contains a Power BI custom visual that behaves like a slicer, but with a header area you can style more freely than the built-in slicer. The main use case is simple: show an SVG icon in the header, control its colours, and keep the slicer looking like part of the report instead of a stock visual.
 
+[ready-to-use release](https://github.com/ShuiGuiPoppy/Slicer-with-SVG-Header-Icon/releases/tag/v1.0.0.0)
+
 ![Screenshot placeholder](docs/readme-showcase.png)
 
 ## Why this exists
