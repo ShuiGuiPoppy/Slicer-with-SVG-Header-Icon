@@ -6,7 +6,8 @@
     "visualClassName": "Visual",
     "version": "1.0.0.0",
     "description": "Slicer with configurable SVG header icon, colours, and dropdown formatting.",
-    "gitHubUrl": "https://github.com/ShuiGuiPoppy/Slicer-with-SVG-Header-Icon"
+    "gitHubUrl": "https://github.com/ShuiGuiPoppy/Slicer-with-SVG-Header-Icon",
+    "supportUrl": "https://github.com/ShuiGuiPoppy/Slicer-with-SVG-Header-Icon/issues"
   },
   "apiVersion": "5.11.0",
   "author": {
